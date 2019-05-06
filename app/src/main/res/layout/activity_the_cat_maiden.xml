@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheCatMaiden">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:layout_behavior="@string/appbar_scrolling_view_behavior"
+       android:padding="20dp">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="The gods were once disputing whether it was possible for a living being to change its nature.
+
+Jupiter said Yes, but Venus said No. So, to try the question, Jupiter turned a Cat into a Maiden, and gave her to a young man for a wife.
+
+       The wedding was duly performed and the young couple sat down to the wedding-feast.
+
+       See,said Jupiter, to Venus, how becomingly she behaves. Who could tell that yesterday she was but a Cat? Surely her nature is changed?
+
+       Wait a minute, replied Venus, and let loose a mouse into the room.
+
+       No sooner did the bride see this than she jumped up from her seat and tried to pounce upon the mouse.
+
+       Ah, you see,said Venus, Nature will out"/>
+   </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>

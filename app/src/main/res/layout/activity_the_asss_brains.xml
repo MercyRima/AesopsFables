@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheAsssBrains">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:layout_behavior="@string/appbar_scrolling_view_behavior"
+      android:padding="20dp">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="The Lion and the Fox went hunting together.
+
+The Lion, on the advice of the Fox, sent a message to the Ass, proposing to make an alliance between their two families.
+
+The Ass came to the place of meeting, overjoyed at the prospect of a royal alliance.
+
+But when he came there the Lion simply pounced on the Ass, and said to the Fox:
+Here is our dinner for to-day. Watch you here while I go and have a nap. Woe betide you if you touch my prey.
+
+The Lion went away and the Fox waited; but finding that his master did not return, ventured to take out the brains of the Ass and ate them up.
+
+When the Lion came back he soon noticed the absence of the brains, and asked the Fox in a terrible voice:
+
+What have you done with the brains?
+
+      Brains, your Majesty! it had none, or it would never have fallen into your trap."/>
+  </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>
